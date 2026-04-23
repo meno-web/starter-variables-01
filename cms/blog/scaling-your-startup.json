@@ -8,5 +8,22 @@
   "date": "Jan 5, 2025",
   "description": "Key insights and strategies for growing your startup from seed to series A.",
   "image": "/images/placeholder-img.webp",
-  "content": "<p>Growth is a product of disciplined focus on the handful of things that actually move the needle.</p>"
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Modern web development combines fast tooling, component-driven design, and clear data flow."
+          }
+        ]
+      }
+    ]
+  },
+  "_url": "/blog/scaling-your-startup"
 }

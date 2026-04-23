@@ -8,5 +8,22 @@
   "date": "Jan 10, 2025",
   "description": "How to build and maintain a design system that scales with your organization.",
   "image": "/images/placeholder-img.webp",
-  "content": "<p>A design system is the shared language that lets product, design, and engineering move in lockstep.</p>"
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "A design system is the shared language that lets product, design, and engineering move in lockstep."
+          }
+        ]
+      }
+    ]
+  },
+  "_url": "/blog/design-systems-guide"
 }
