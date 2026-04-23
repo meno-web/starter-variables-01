@@ -11,7 +11,7 @@
     {
       "name": "Heading",
       "cssVar": "--h-ls",
-      "value": "-0.01em",
+      "value": "-0.02em",
       "type": "none",
       "group": "letter-spacing"
     },
@@ -21,6 +21,13 @@
       "value": "700",
       "type": "none",
       "group": "font-weight"
+    },
+    {
+      "name": "Heading",
+      "cssVar": "--h-m",
+      "value": "20px",
+      "type": "margin",
+      "group": "margin"
     }
   ]
 }

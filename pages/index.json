@@ -28,12 +28,27 @@
                   "base": {
                     "fontSize": "var(--h-fs)",
                     "letterSpacing": "var(--h-ls)",
-                    "fontWeight": "var(--h-fw)"
+                    "fontWeight": "var(--h-fw)",
+                    "marginBottom": "var(--h-m)"
                   },
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": []
+                "children": "This is heading"
+              },
+              {
+                "type": "node",
+                "tag": "h1",
+                "style": {
+                  "base": {
+                    "fontSize": "18px",
+                    "letterSpacing": "-0.01em",
+                    "fontWeight": "400"
+                  },
+                  "tablet": {},
+                  "mobile": {}
+                },
+                "children": "This is heading"
               }
             ]
           }
