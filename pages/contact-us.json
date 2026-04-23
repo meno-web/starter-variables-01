@@ -113,7 +113,8 @@
                         "display": "flex",
                         "flexDirection": "column",
                         "alignItems": "stretch",
-                        "gap": "8px"
+                        "gap": "8px",
+                        "width": "100%"
                       },
                       "tablet": {},
                       "mobile": {}
@@ -132,7 +133,9 @@
                           "tablet": {},
                           "mobile": {}
                         },
-                        "attributes": { "for": "name" },
+                        "attributes": {
+                          "for": "name"
+                        },
                         "children": "Name"
                       },
                       {
@@ -170,7 +173,8 @@
                         "display": "flex",
                         "flexDirection": "column",
                         "alignItems": "stretch",
-                        "gap": "8px"
+                        "gap": "8px",
+                        "width": "100%"
                       },
                       "tablet": {},
                       "mobile": {}
@@ -189,7 +193,9 @@
                           "tablet": {},
                           "mobile": {}
                         },
-                        "attributes": { "for": "email" },
+                        "attributes": {
+                          "for": "email"
+                        },
                         "children": "Email"
                       },
                       {
@@ -227,7 +233,8 @@
                         "display": "flex",
                         "flexDirection": "column",
                         "alignItems": "stretch",
-                        "gap": "8px"
+                        "gap": "8px",
+                        "width": "100%"
                       },
                       "tablet": {},
                       "mobile": {}
@@ -246,7 +253,9 @@
                           "tablet": {},
                           "mobile": {}
                         },
-                        "attributes": { "for": "phone" },
+                        "attributes": {
+                          "for": "phone"
+                        },
                         "children": "Phone"
                       },
                       {
@@ -283,7 +292,8 @@
                         "display": "flex",
                         "flexDirection": "column",
                         "alignItems": "stretch",
-                        "gap": "8px"
+                        "gap": "8px",
+                        "width": "100%"
                       },
                       "tablet": {},
                       "mobile": {}
@@ -302,7 +312,9 @@
                           "tablet": {},
                           "mobile": {}
                         },
-                        "attributes": { "for": "message" },
+                        "attributes": {
+                          "for": "message"
+                        },
                         "children": "Message"
                       },
                       {
