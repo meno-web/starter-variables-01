@@ -115,6 +115,14 @@
       "value": "140%",
       "type": "none",
       "group": "line-height"
+    },
+    {
+      "name": "Container",
+      "cssVar": "--co-s",
+      "value": "890px",
+      "type": "size",
+      "group": "size",
+      "prop_name": "Medium"
     }
   ]
 }

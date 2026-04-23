@@ -125,7 +125,7 @@
                             "flexDirection": "row",
                             "justifyContent": "flex-start",
                             "alignItems": "stretch",
-                            "backgroundColor": "var(--bg-200)",
+                            "backgroundColor": "var(--gray-200)",
                             "borderRadius": "var(--b-br)",
                             "color": "var(--text)"
                           },
@@ -148,7 +148,7 @@
         "style": {
           "base": {
             "padding": "var(--s-p)",
-            "backgroundColor": "var(--bg-100)"
+            "backgroundColor": "var(--gray-100)"
           },
           "tablet": {},
           "mobile": {}
@@ -259,7 +259,7 @@
             "style": {
               "base": {
                 "display": "block",
-                "maxWidth": "var(--c-s)",
+                "maxWidth": "var(--co-s)",
                 "margin": "auto"
               },
               "tablet": {},
@@ -271,7 +271,7 @@
                 "tag": "h1",
                 "style": {
                   "base": {
-                    "fontSize": "var(--h-fs)",
+                    "fontSize": "var(--he-fs)",
                     "letterSpacing": "var(--h-ls)",
                     "fontWeight": "var(--h-fw)",
                     "marginBottom": "var(--h-m)",
