@@ -7,9 +7,37 @@
         "type": "node",
         "tag": "div",
         "style": {
-          "base": {}
+          "base": {
+            "padding": "80px 32px"
+          },
+          "tablet": {},
+          "mobile": {}
         },
-        "children": []
+        "children": [
+          {
+            "type": "node",
+            "tag": "div",
+            "style": {
+              "base": {}
+            },
+            "children": [
+              {
+                "type": "node",
+                "tag": "h1",
+                "style": {
+                  "base": {
+                    "fontSize": "var(--h-fs)",
+                    "letterSpacing": "var(--h-ls)",
+                    "fontWeight": "var(--h-fw)"
+                  },
+                  "tablet": {},
+                  "mobile": {}
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
