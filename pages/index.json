@@ -55,7 +55,7 @@
                         "textAlign": "center",
                         "lineHeight": "var(--h-lh)",
                         "color": "var(--text)",
-                        "maxWidth": "700px"
+                        "maxWidth": "725px"
                       },
                       "tablet": {},
                       "mobile": {}
@@ -452,8 +452,11 @@
                     "sourceType": "collection",
                     "source": "blog",
                     "itemAs": "post",
+                    "sort": {
+                      "field": "_createdAt",
+                      "order": "desc"
+                    },
                     "limit": 3,
-                    "sort": { "field": "_createdAt", "order": "desc" },
                     "children": [
                       {
                         "type": "link",
