@@ -373,7 +373,7 @@
                     "justifyContent": "flex-start",
                     "alignItems": "center",
                     "textAlign": "center",
-                    "marginBottom": "60px"
+                    "marginBottom": "52px"
                   },
                   "tablet": {},
                   "mobile": {}
@@ -384,12 +384,12 @@
                     "tag": "span",
                     "style": {
                       "base": {
-                        "fontSize": "var(--t-fs)",
-                        "letterSpacing": "0.08em",
-                        "fontWeight": "600",
+                        "fontSize": "var(--s-fs)",
+                        "letterSpacing": "var(--s-ls)",
+                        "fontWeight": "var(--s-fw)",
                         "color": "var(--text)",
-                        "textTransform": "uppercase",
-                        "marginBottom": "16px"
+                        "textTransform": "var(--subtitle)",
+                        "marginBottom": "var(--s-m)"
                       },
                       "tablet": {},
                       "mobile": {}
@@ -441,7 +441,7 @@
                   "base": {
                     "display": "grid",
                     "gridTemplateColumns": "1fr 1fr 1fr",
-                    "gap": "24px"
+                    "gap": "16px"
                   },
                   "tablet": {},
                   "mobile": {}

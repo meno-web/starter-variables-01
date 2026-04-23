@@ -23,7 +23,8 @@
           "tag": "img",
           "style": {
             "base": {
-              "aspectRatio": "16 / 10"
+              "aspectRatio": "16 / 10",
+              "objectFit": "cover"
             },
             "tablet": {},
             "mobile": {}

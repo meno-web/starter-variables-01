@@ -126,11 +126,45 @@
     },
     {
       "name": "Heading",
+      "prop_name": "Size 3",
       "cssVar": "--he-m",
       "value": "8px",
       "type": "margin",
-      "group": "margin",
-      "prop_name": "Size 3"
+      "group": "margin"
+    },
+    {
+      "name": "Subtitle",
+      "cssVar": "--s-fs",
+      "value": "14px",
+      "type": "fontSize",
+      "group": "font-size"
+    },
+    {
+      "name": "Subtitle",
+      "cssVar": "--s-ls",
+      "value": "-0.01em",
+      "type": "none",
+      "group": "letter-spacing"
+    },
+    {
+      "name": "Subtitle",
+      "cssVar": "--s-fw",
+      "value": "700",
+      "type": "none",
+      "group": "font-weight"
+    },
+    {
+      "name": "Subtitle",
+      "cssVar": "--subtitle",
+      "value": "uppercase",
+      "type": "none"
+    },
+    {
+      "name": "Subtitle",
+      "cssVar": "--s-m",
+      "value": "12px",
+      "type": "margin",
+      "group": "margin"
     }
   ]
 }
