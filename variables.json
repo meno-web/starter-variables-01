@@ -4,7 +4,7 @@
       "name": "Heading",
       "prop_name": "Size 1",
       "cssVar": "--h-fs",
-      "value": "52px",
+      "value": "56px",
       "type": "fontSize",
       "group": "font-size"
     },
@@ -101,6 +101,20 @@
       "value": "4px",
       "type": "borderRadius",
       "group": "border-radius"
+    },
+    {
+      "name": "Heading",
+      "cssVar": "--h-lh",
+      "value": "120%",
+      "type": "none",
+      "group": "line-height"
+    },
+    {
+      "name": "Text",
+      "cssVar": "--t-lh",
+      "value": "140%",
+      "type": "none",
+      "group": "line-height"
     }
   ]
 }

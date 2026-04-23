@@ -20,7 +20,8 @@
               "fontSize": "var(--hea-fs)",
               "letterSpacing": "var(--h-ls)",
               "fontWeight": "var(--h-fw)",
-              "marginBottom": "var(--h-m)"
+              "marginBottom": "var(--h-m)",
+              "lineHeight": "var(--h-lh)"
             },
             "tablet": {},
             "mobile": {}
@@ -36,7 +37,8 @@
             "base": {
               "fontSize": "var(--t-fs)",
               "letterSpacing": "var(--t-ls)",
-              "fontWeight": "var(--t-fw)"
+              "fontWeight": "var(--t-fw)",
+              "lineHeight": "var(--t-lh)"
             },
             "tablet": {},
             "mobile": {}
