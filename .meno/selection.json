@@ -1,8 +1,13 @@
 {
-  "filePath": "components/Navigation.json",
-  "locator": "components/Navigation.json:322-356",
-  "navigationPath": [
-    "pages/contact-us.json",
-    "components/Navigation.json"
-  ]
+  "filePath": "pages/contact-us.json",
+  "locator": "pages/contact-us.json:108-119  <Input>",
+  "props": {
+    "label": "Name",
+    "inputId": "name",
+    "inputName": "name",
+    "inputType": "text",
+    "placeholder": "John Doe",
+    "required": true
+  },
+  "navigationPath": []
 }
