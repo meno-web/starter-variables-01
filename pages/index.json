@@ -324,19 +324,35 @@
                 "children": [
                   {
                     "type": "component",
-                    "component": "FaqQuestion"
+                    "component": "FaqQuestion",
+                    "props": {
+                      "answer": "Short supporting description that previews how this section looks and reads in the editor",
+                      "question": "First question"
+                    }
                   },
                   {
                     "type": "component",
-                    "component": "FaqQuestion"
+                    "component": "FaqQuestion",
+                    "props": {
+                      "question": "Second question",
+                      "answer": "Short supporting description that previews how this section looks and reads in the editor"
+                    }
                   },
                   {
                     "type": "component",
-                    "component": "FaqQuestion"
+                    "component": "FaqQuestion",
+                    "props": {
+                      "question": "Third question",
+                      "answer": "Short supporting description that previews how this section looks and reads in the editor"
+                    }
                   },
                   {
                     "type": "component",
-                    "component": "FaqQuestion"
+                    "component": "FaqQuestion",
+                    "props": {
+                      "question": "Fourth question",
+                      "answer": "Short supporting description that previews how this section looks and reads in the editor"
+                    }
                   }
                 ]
               }

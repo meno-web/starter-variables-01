@@ -147,10 +147,11 @@
                             "fontSize": "var(--te-fs)",
                             "color": "var(--text)",
                             "backgroundColor": "var(--bg)",
-                            "border": "1px solid var(--border)",
+                            "border": "1px solid",
                             "borderRadius": "var(--b-br)",
                             "outline": "none",
-                            "width": "100%"
+                            "width": "100%",
+                            "borderColor": "var(--border)"
                           },
                           "tablet": {},
                           "mobile": {}
@@ -207,10 +208,11 @@
                             "fontSize": "var(--te-fs)",
                             "color": "var(--text)",
                             "backgroundColor": "var(--bg)",
-                            "border": "1px solid var(--border)",
+                            "border": "1px solid",
                             "borderRadius": "var(--b-br)",
                             "outline": "none",
-                            "width": "100%"
+                            "width": "100%",
+                            "borderColor": "var(--border)"
                           },
                           "tablet": {},
                           "mobile": {}
@@ -270,7 +272,8 @@
                             "border": "1px solid",
                             "borderRadius": "var(--b-br)",
                             "outline": "none",
-                            "width": "100%"
+                            "width": "100%",
+                            "borderColor": "var(--border)"
                           },
                           "tablet": {},
                           "mobile": {}
@@ -326,13 +329,14 @@
                             "fontSize": "var(--te-fs)",
                             "color": "var(--text)",
                             "backgroundColor": "var(--bg)",
-                            "border": "1px solid var(--border)",
+                            "border": "1px solid",
                             "borderRadius": "var(--b-br)",
                             "outline": "none",
                             "width": "100%",
                             "resize": "vertical",
                             "fontFamily": "inherit",
-                            "lineHeight": "var(--t-lh)"
+                            "lineHeight": "var(--t-lh)",
+                            "borderColor": "var(--border)"
                           },
                           "tablet": {},
                           "mobile": {}
