@@ -306,68 +306,24 @@
                 "tag": "div",
                 "style": {
                   "base": {
-                    "marginTop": "60px"
+                    "marginTop": "60px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "space-between",
+                    "alignItems": "stretch",
+                    "gap": "24px"
                   },
                   "tablet": {},
                   "mobile": {}
                 },
                 "children": [
                   {
-                    "type": "node",
-                    "tag": "div",
-                    "style": {
-                      "base": {}
-                    },
-                    "children": [
-                      {
-                        "type": "node",
-                        "tag": "div",
-                        "style": {
-                          "base": {
-                            "paddingBottom": "20px"
-                          },
-                          "tablet": {},
-                          "mobile": {}
-                        },
-                        "children": [
-                          {
-                            "type": "node",
-                            "tag": "h3",
-                            "style": {
-                              "base": {
-                                "fontSize": "var(--hea-fs)",
-                                "letterSpacing": "var(--h-ls)",
-                                "fontWeight": "var(--h-fw)",
-                                "lineHeight": "var(--h-lh)",
-                                "color": "var(--text)"
-                              },
-                              "tablet": {},
-                              "mobile": {}
-                            },
-                            "children": [
-                              "First question"
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "node",
-                        "tag": "p",
-                        "style": {
-                          "base": {
-                            "fontSize": "var(--t-fs)",
-                            "letterSpacing": "var(--t-ls)",
-                            "fontWeight": "var(--t-fw)",
-                            "lineHeight": "var(--t-lh)",
-                            "color": "var(--text)",
-                            "maxWidth": "380px"
-                          },
-                          "tablet": {},
-                          "mobile": {}
-                        },
-                        "children": "Short supporting description that previews how this section looks and reads in the editor"
-                      }
-                    ]
+                    "type": "component",
+                    "component": "FaqQuestion"
+                  },
+                  {
+                    "type": "component",
+                    "component": "FaqQuestion"
                   }
                 ]
               }

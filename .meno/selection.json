@@ -1,5 +1,5 @@
 {
   "filePath": "pages/index.json",
-  "locator": "pages/index.json:315-371  <div>",
+  "locator": "pages/index.json:320-323  <FaqQuestion>",
   "navigationPath": []
 }

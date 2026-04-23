@@ -1,0 +1,77 @@
+{
+  "component": {
+    "structure": {
+      "type": "node",
+      "tag": "div",
+      "style": {
+        "base": {
+          "width": "100%"
+        },
+        "tablet": {},
+        "mobile": {}
+      },
+      "children": [
+        {
+          "type": "node",
+          "tag": "div",
+          "style": {
+            "base": {
+              "paddingBottom": "20px"
+            },
+            "tablet": {},
+            "mobile": {}
+          },
+          "children": [
+            {
+              "type": "node",
+              "tag": "h3",
+              "style": {
+                "base": {
+                  "fontSize": "var(--hea-fs)",
+                  "letterSpacing": "var(--h-ls)",
+                  "fontWeight": "var(--h-fw)",
+                  "lineHeight": "var(--h-lh)",
+                  "color": "var(--text)"
+                },
+                "tablet": {},
+                "mobile": {}
+              },
+              "children": [
+                "{{question}}"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "node",
+          "tag": "p",
+          "style": {
+            "base": {
+              "fontSize": "var(--t-fs)",
+              "letterSpacing": "var(--t-ls)",
+              "fontWeight": "var(--t-fw)",
+              "lineHeight": "var(--t-lh)",
+              "color": "var(--text)",
+              "maxWidth": "530px"
+            },
+            "tablet": {},
+            "mobile": {}
+          },
+          "children": [
+            "{{answer}}"
+          ]
+        }
+      ]
+    },
+    "interface": {
+      "question": {
+        "type": "string",
+        "default": "First question"
+      },
+      "answer": {
+        "type": "string",
+        "default": "Short supporting description that previews how this section looks and reads in the editor"
+      }
+    }
+  }
+}
