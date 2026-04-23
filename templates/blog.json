@@ -4,6 +4,10 @@
     "component": "Layout",
     "children": [
       {
+        "type": "component",
+        "component": "Navigation"
+      },
+      {
         "type": "node",
         "tag": "section",
         "style": {
@@ -135,6 +139,10 @@
             ]
           }
         ]
+      },
+      {
+        "type": "component",
+        "component": "Footer"
       }
     ]
   },
@@ -148,13 +156,36 @@
       "slugField": "slug",
       "urlPattern": "/blog/{{slug}}",
       "fields": {
-        "title": { "type": "string", "label": "Title", "required": true },
-        "slug": { "type": "string", "label": "URL Slug", "required": true },
-        "category": { "type": "string", "label": "Category" },
-        "date": { "type": "string", "label": "Date" },
-        "description": { "type": "text", "label": "Description" },
-        "image": { "type": "image", "label": "Cover image" },
-        "content": { "type": "rich-text", "label": "Content" }
+        "title": {
+          "type": "string",
+          "label": "Title",
+          "required": true
+        },
+        "slug": {
+          "type": "string",
+          "label": "URL Slug",
+          "required": true
+        },
+        "category": {
+          "type": "string",
+          "label": "Category"
+        },
+        "date": {
+          "type": "string",
+          "label": "Date"
+        },
+        "description": {
+          "type": "text",
+          "label": "Description"
+        },
+        "image": {
+          "type": "image",
+          "label": "Cover image"
+        },
+        "content": {
+          "type": "rich-text",
+          "label": "Content"
+        }
       }
     }
   }
