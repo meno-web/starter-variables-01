@@ -83,7 +83,7 @@
                     "tablet": {},
                     "mobile": {}
                   },
-                  "children": "{{brandName}}"
+                  "children": "Starter"
                 }
               ]
             },
@@ -221,8 +221,7 @@
                       "pointerEvents": "auto"
                     },
                     "mobile": {}
-                  },
-                  "previewProp": "isOpen"
+                  }
                 }
               ],
               "children": [
@@ -322,7 +321,7 @@
                   "children": [
                     {
                       "type": "link",
-                      "href": "{{ctaLink}}",
+                      "href": "#contact",
                       "style": {
                         "base": {
                           "display": "inline-flex",
@@ -353,7 +352,7 @@
                           }
                         }
                       ],
-                      "children": "{{ctaText}}"
+                      "children": "Get Started"
                     }
                   ]
                 }
@@ -406,25 +405,6 @@
         }
       ]
     },
-    "interface": {
-      "brandName": {
-        "type": "string",
-        "default": "Starter"
-      },
-      "ctaText": {
-        "type": "string",
-        "default": "Get Started"
-      },
-      "ctaLink": {
-        "type": "link",
-        "default": {
-          "href": "#contact"
-        }
-      },
-      "isOpen": {
-        "type": "boolean",
-        "default": false
-      }
-    }
+    "interface": {}
   }
 }
