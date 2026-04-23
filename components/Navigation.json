@@ -332,7 +332,7 @@
                           "backgroundColor": "var(--accent)",
                           "color": "var(--white)",
                           "borderRadius": "var(--b-br)",
-                          "fontSize": "var(--t-fs)",
+                          "fontSize": "var(--te-fs)",
                           "letterSpacing": "var(--t-ls)",
                           "fontWeight": "var(--t-fw)",
                           "textDecoration": "none",
@@ -417,7 +417,9 @@
       },
       "ctaLink": {
         "type": "link",
-        "default": { "href": "#contact" }
+        "default": {
+          "href": "#contact"
+        }
       },
       "isOpen": {
         "type": "boolean",

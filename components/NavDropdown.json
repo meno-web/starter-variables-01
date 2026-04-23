@@ -18,7 +18,7 @@
           "style": {
             "base": {
               "color": "var(--text)",
-              "fontSize": "var(--t-fs)",
+              "fontSize": "var(--te-fs)",
               "letterSpacing": "var(--t-ls)",
               "fontWeight": "var(--t-fw)",
               "background": "none",
@@ -165,6 +165,7 @@
         "type": "boolean",
         "default": false
       }
-    }
+    },
+    "defineVars": true
   }
 }

@@ -112,7 +112,8 @@
                             "alignItems": "stretch",
                             "backgroundColor": "var(--accent)",
                             "borderRadius": "var(--b-br)",
-                            "color": "var(--white)"
+                            "color": "var(--white)",
+                            "fontSize": "var(--te-fs)"
                           },
                           "tablet": {},
                           "mobile": {}
@@ -131,7 +132,8 @@
                             "alignItems": "stretch",
                             "backgroundColor": "var(--gray-200)",
                             "borderRadius": "var(--b-br)",
-                            "color": "var(--text)"
+                            "color": "var(--text)",
+                            "fontSize": "var(--te-fs)"
                           },
                           "tablet": {},
                           "mobile": {}
