@@ -160,6 +160,10 @@
       "answer": {
         "type": "string",
         "default": "Short supporting description that previews how this section looks and reads in the editor"
+      },
+      "isOpen": {
+        "type": "boolean",
+        "default": false
       }
     }
   }
