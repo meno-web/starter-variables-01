@@ -143,6 +143,36 @@
                   },
                   {
                     "type": "component",
+                    "component": "Select",
+                    "props": {
+                      "label": "Subject",
+                      "inputId": "subject",
+                      "inputName": "subject",
+                      "required": true,
+                      "options": [
+                        { "label": "Select a subject", "value": "" },
+                        { "label": "General inquiry", "value": "general" },
+                        { "label": "Support", "value": "support" },
+                        { "label": "Partnership", "value": "partnership" },
+                        { "label": "Other", "value": "other" }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "component": "RadioGroup",
+                    "props": {
+                      "label": "Preferred contact method",
+                      "inputName": "contactMethod",
+                      "required": true,
+                      "options": [
+                        { "label": "Email", "value": "email" },
+                        { "label": "Phone", "value": "phone" }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "component",
                     "component": "TextArea",
                     "props": {
                       "label": "Message",
@@ -150,6 +180,30 @@
                       "inputName": "message",
                       "placeholder": "Message",
                       "rows": 6,
+                      "required": true
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "component": "Checkbox",
+                    "props": {
+                      "label": "Subscribe to our newsletter",
+                      "inputId": "newsletter",
+                      "inputName": "newsletter",
+                      "value": "yes",
+                      "checked": false,
+                      "required": false
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "component": "Checkbox",
+                    "props": {
+                      "label": "I agree to the privacy policy",
+                      "inputId": "privacy",
+                      "inputName": "privacy",
+                      "value": "yes",
+                      "checked": false,
                       "required": true
                     }
                   },
