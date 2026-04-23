@@ -1,5 +1,9 @@
 {
   "filePath": "pages/index.json",
-  "locator": "pages/index.json:2-618  <Layout>",
+  "locator": "pages/index.json:325-332  <FaqQuestion>",
+  "props": {
+    "answer": "Short supporting description that previews how this section looks and reads in the editor",
+    "question": "First question"
+  },
   "navigationPath": []
 }
