@@ -18,7 +18,7 @@
     {
       "name": "Heading",
       "cssVar": "--h-fw",
-      "value": "700",
+      "value": "600",
       "type": "none",
       "group": "font-weight"
     },
@@ -105,7 +105,7 @@
     {
       "name": "Heading",
       "cssVar": "--h-lh",
-      "value": "120%",
+      "value": "100%",
       "type": "none",
       "group": "line-height"
     },
