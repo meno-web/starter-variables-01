@@ -11,7 +11,9 @@
         }
       },
       "children": [
-        { "type": "slot" }
+        {
+          "type": "slot"
+        }
       ]
     },
     "interface": {}
