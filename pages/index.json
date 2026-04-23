@@ -64,7 +64,7 @@
                       "tablet": {},
                       "mobile": {}
                     },
-                    "children": "Everything you need to build professional website"
+                    "children": "<!--MENO_RAW_HTML-->Everything you <span class=\"custom-span\" data-meno-span=\"true\">need</span> to build professional website"
                   },
                   {
                     "type": "node",

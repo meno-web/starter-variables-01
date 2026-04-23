@@ -1,5 +1,8 @@
 {
-  "filePath": "pages/index.json",
-  "locator": "pages/index.json:50-68  <h1>",
-  "navigationPath": []
+  "filePath": "components/Layout.json",
+  "locator": "components/Layout.json:3-18  <div>",
+  "navigationPath": [
+    "pages/index.json",
+    "components/Layout.json"
+  ]
 }
