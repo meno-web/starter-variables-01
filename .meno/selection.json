@@ -1,5 +1,11 @@
 {
   "filePath": "pages/index.json",
-  "locator": "pages/index.json:289-303  <p>",
+  "locator": "pages/index.json:460-469  <BlogCard>",
+  "props": {
+    "category": "Business",
+    "title": "Scaling Your Startup: Lessons Learned",
+    "date": "Jan 5, 2025",
+    "description": "Key insights and strategies for growing your startup from seed to series A."
+  },
   "navigationPath": []
 }
