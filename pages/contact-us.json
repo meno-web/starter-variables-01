@@ -267,7 +267,7 @@
                             "fontSize": "var(--te-fs)",
                             "color": "var(--text)",
                             "backgroundColor": "var(--bg)",
-                            "border": "1px solid var(--border)",
+                            "border": "1px solid",
                             "borderRadius": "var(--b-br)",
                             "outline": "none",
                             "width": "100%"
