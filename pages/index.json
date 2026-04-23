@@ -98,7 +98,8 @@
             "style": {
               "base": {
                 "display": "block",
-                "margin": "auto"
+                "margin": "auto",
+                "maxWidth": "var(--c-s)"
               },
               "tablet": {},
               "mobile": {}

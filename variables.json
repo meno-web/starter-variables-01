@@ -54,7 +54,7 @@
     {
       "name": "Button",
       "cssVar": "--b-m",
-      "value": "32px",
+      "value": "24px",
       "type": "margin",
       "group": "margin"
     },
@@ -82,11 +82,25 @@
     },
     {
       "name": "Heading",
+      "prop_name": "Size 3",
       "cssVar": "--hea-fs",
       "value": "32px",
       "type": "fontSize",
-      "group": "font-size",
-      "prop_name": "Size 3"
+      "group": "font-size"
+    },
+    {
+      "name": "Container",
+      "cssVar": "--c-s",
+      "value": "1100px",
+      "type": "size",
+      "group": "size"
+    },
+    {
+      "name": "Button",
+      "cssVar": "--b-br",
+      "value": "4px",
+      "type": "borderRadius",
+      "group": "border-radius"
     }
   ]
 }
