@@ -8,7 +8,8 @@
         "bg": "#ffffff",
         "muted": "#6b7280",
         "border": "#e5e7eb",
-        "accent": "#c9ccdf"
+        "accent": "#c9ccdf",
+        "bg-100": "#eae3e3"
       }
     }
   }
