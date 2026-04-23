@@ -1,11 +1,5 @@
 {
   "filePath": "pages/index.json",
-  "locator": "pages/index.json:471-480  <BlogCard>",
-  "props": {
-    "category": "Design",
-    "title": "Design Systems: A Complete Guide",
-    "date": "Jan 10, 2025",
-    "description": "How to build and maintain a design system that scales with your organization."
-  },
+  "locator": "pages/index.json:6-144  <section>",
   "navigationPath": []
 }
