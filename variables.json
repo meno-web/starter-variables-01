@@ -98,7 +98,7 @@
     {
       "name": "Button",
       "cssVar": "--b-br",
-      "value": "4px",
+      "value": "2px",
       "type": "borderRadius",
       "group": "border-radius"
     },
