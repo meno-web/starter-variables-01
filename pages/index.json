@@ -538,7 +538,7 @@
                                 "tag": "h3",
                                 "style": {
                                   "base": {
-                                    "fontSize": "var(--hea-fs)",
+                                    "fontSize": "var(--head-fs)",
                                     "letterSpacing": "var(--h-ls)",
                                     "fontWeight": "var(--h-fw)",
                                     "lineHeight": "var(--h-lh)",
@@ -555,7 +555,7 @@
                                 "tag": "span",
                                 "style": {
                                   "base": {
-                                    "fontSize": "var(--t-fs)",
+                                    "fontSize": "var(--te-fs)",
                                     "letterSpacing": "var(--t-ls)",
                                     "fontWeight": "var(--t-fw)",
                                     "color": "var(--muted)"
