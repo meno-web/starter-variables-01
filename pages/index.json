@@ -337,6 +337,151 @@
             ]
           }
         ]
+      },
+      {
+        "type": "node",
+        "tag": "section",
+        "style": {
+          "base": {
+            "padding": "var(--s-p)",
+            "backgroundColor": "var(--gray-100)"
+          },
+          "tablet": {},
+          "mobile": {}
+        },
+        "children": [
+          {
+            "type": "node",
+            "tag": "container",
+            "style": {
+              "base": {
+                "display": "block",
+                "maxWidth": "var(--c-s)",
+                "margin": "auto"
+              },
+              "tablet": {},
+              "mobile": {}
+            },
+            "children": [
+              {
+                "type": "node",
+                "tag": "div",
+                "style": {
+                  "base": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "center",
+                    "textAlign": "center",
+                    "marginBottom": "60px"
+                  },
+                  "tablet": {},
+                  "mobile": {}
+                },
+                "children": [
+                  {
+                    "type": "node",
+                    "tag": "span",
+                    "style": {
+                      "base": {
+                        "fontSize": "var(--t-fs)",
+                        "letterSpacing": "0.08em",
+                        "fontWeight": "600",
+                        "color": "var(--text)",
+                        "textTransform": "uppercase",
+                        "marginBottom": "16px"
+                      },
+                      "tablet": {},
+                      "mobile": {}
+                    },
+                    "children": "Blog"
+                  },
+                  {
+                    "type": "node",
+                    "tag": "h2",
+                    "style": {
+                      "base": {
+                        "fontSize": "var(--h-fs)",
+                        "letterSpacing": "var(--h-ls)",
+                        "fontWeight": "var(--h-fw)",
+                        "marginBottom": "var(--h-m)",
+                        "lineHeight": "var(--h-lh)",
+                        "color": "var(--text)",
+                        "textAlign": "center"
+                      },
+                      "tablet": {},
+                      "mobile": {}
+                    },
+                    "children": "Latest articles"
+                  },
+                  {
+                    "type": "node",
+                    "tag": "p",
+                    "style": {
+                      "base": {
+                        "fontSize": "var(--t-fs)",
+                        "letterSpacing": "var(--t-ls)",
+                        "fontWeight": "var(--t-fw)",
+                        "lineHeight": "var(--t-lh)",
+                        "color": "var(--text)",
+                        "textAlign": "center",
+                        "maxWidth": "520px"
+                      },
+                      "tablet": {},
+                      "mobile": {}
+                    },
+                    "children": "Stay up to date with the latest news, tips, and insights."
+                  }
+                ]
+              },
+              {
+                "type": "node",
+                "tag": "div",
+                "style": {
+                  "base": {
+                    "display": "grid",
+                    "gridTemplateColumns": "1fr 1fr 1fr",
+                    "gap": "24px"
+                  },
+                  "tablet": {},
+                  "mobile": {}
+                },
+                "children": [
+                  {
+                    "type": "component",
+                    "component": "BlogCard",
+                    "props": {
+                      "category": "Technology",
+                      "title": "Getting Started with Modern Web Development",
+                      "date": "Jan 15, 2025",
+                      "description": "Learn the fundamentals of modern web development and best practices for building scalable applications."
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "component": "BlogCard",
+                    "props": {
+                      "category": "Business",
+                      "title": "Scaling Your Startup: Lessons Learned",
+                      "date": "Jan 5, 2025",
+                      "description": "Key insights and strategies for growing your startup from seed to series A."
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "component": "BlogCard",
+                    "props": {
+                      "category": "Design",
+                      "title": "Design Systems: A Complete Guide",
+                      "date": "Jan 10, 2025",
+                      "description": "How to build and maintain a design system that scales with your organization."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
