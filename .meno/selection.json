@@ -1,5 +1,9 @@
 {
-  "filePath": "pages/index.json",
-  "locator": "pages/index.json:450-584",
-  "navigationPath": []
+  "filePath": "components/NavLink.json",
+  "locator": "components/NavLink.json:12-45",
+  "navigationPath": [
+    "pages/index.json",
+    "components/Navigation.json",
+    "components/NavLink.json"
+  ]
 }

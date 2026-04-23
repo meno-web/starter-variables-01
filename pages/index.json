@@ -4,6 +4,10 @@
     "component": "Layout",
     "children": [
       {
+        "type": "component",
+        "component": "Navigation"
+      },
+      {
         "type": "node",
         "tag": "section",
         "style": {
@@ -587,6 +591,10 @@
             ]
           }
         ]
+      },
+      {
+        "type": "component",
+        "component": "Footer"
       }
     ]
   },
