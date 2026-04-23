@@ -104,21 +104,16 @@
                 }
               },
               {
-                "type": "node",
-                "tag": "div",
+                "type": "component",
+                "component": "RichText",
+                "props": {
+                  "content": "{{cms.content}}"
+                },
                 "style": {
                   "base": {
-                    "fontSize": "var(--t-fs)",
-                    "letterSpacing": "var(--t-ls)",
-                    "fontWeight": "var(--t-fw)",
-                    "lineHeight": "var(--t-lh)",
-                    "color": "var(--text)",
                     "marginTop": "24px"
-                  },
-                  "tablet": {},
-                  "mobile": {}
-                },
-                "children": "{{cms.content}}"
+                  }
+                }
               }
             ]
           }
