@@ -188,7 +188,7 @@
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": "This is features headline"
+                "children": "<!--MENO_RAW_HTML-->This is <span class=\"custom-span\" data-meno-span=\"true\">features</span> headline"
               },
               {
                 "type": "node",
