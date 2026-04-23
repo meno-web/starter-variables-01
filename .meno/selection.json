@@ -1,8 +1,5 @@
 {
-  "filePath": "components/FaqQuestion.json",
-  "locator": "components/FaqQuestion.json:3-127  <div>",
-  "navigationPath": [
-    "pages/index.json",
-    "components/FaqQuestion.json"
-  ]
+  "filePath": "pages/index.json",
+  "locator": "pages/index.json:145-247  <section>",
+  "navigationPath": []
 }
