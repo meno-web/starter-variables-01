@@ -310,8 +310,7 @@
                     "display": "flex",
                     "flexDirection": "column",
                     "justifyContent": "space-between",
-                    "alignItems": "stretch",
-                    "gap": "24px"
+                    "alignItems": "stretch"
                   },
                   "tablet": {},
                   "mobile": {}
