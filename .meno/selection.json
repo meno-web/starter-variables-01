@@ -1,5 +1,8 @@
 {
-  "filePath": "pages/contact-us.json",
-  "locator": "pages/contact-us.json:10-188  <section>",
-  "navigationPath": []
+  "filePath": "components/Navigation.json",
+  "locator": "components/Navigation.json:322-356",
+  "navigationPath": [
+    "pages/contact-us.json",
+    "components/Navigation.json"
+  ]
 }

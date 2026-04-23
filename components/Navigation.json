@@ -321,7 +321,7 @@
                   "children": [
                     {
                       "type": "link",
-                      "href": "#contact",
+                      "href": "/contact-us",
                       "style": {
                         "base": {
                           "display": "inline-flex",
@@ -352,7 +352,7 @@
                           }
                         }
                       ],
-                      "children": "Get Started"
+                      "children": "Contact"
                     }
                   ]
                 }
