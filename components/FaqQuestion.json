@@ -4,7 +4,7 @@
       "type": "node",
       "tag": "div",
       "attributes": {
-        "data-faq-item": ""
+        "data-faq-item": "true"
       },
       "style": {
         "base": {
@@ -19,7 +19,7 @@
           "type": "node",
           "tag": "button",
           "attributes": {
-            "data-faq-toggle": "",
+            "data-faq-toggle": "true",
             "type": "button"
           },
           "style": {
@@ -63,7 +63,7 @@
               "type": "node",
               "tag": "span",
               "attributes": {
-                "data-faq-icon": ""
+                "data-faq-icon": "true"
               },
               "style": {
                 "base": {
@@ -88,7 +88,7 @@
           "type": "node",
           "tag": "div",
           "attributes": {
-            "data-faq-answer": ""
+            "data-faq-answer": "true"
           },
           "style": {
             "base": {
