@@ -9,7 +9,8 @@
         "muted": "#6b7280",
         "border": "#e5e7eb",
         "accent": "#000000",
-        "bg-100": "#eae3e3"
+        "bg-100": "#eae3e3",
+        "white": "#ebebeb"
       }
     }
   }
