@@ -20,18 +20,20 @@
       "children": [
         {
           "type": "node",
-          "tag": "div",
+          "tag": "img",
           "style": {
             "base": {
               "width": "100%",
               "aspectRatio": "16 / 10",
               "backgroundColor": "var(--gray-200)",
-              "backgroundImage": "{{image}}",
               "backgroundSize": "cover",
               "backgroundPosition": "center"
             },
             "tablet": {},
             "mobile": {}
+          },
+          "attributes": {
+            "src": "/images/placeholder-img.webp"
           }
         },
         {
@@ -123,8 +125,8 @@
     "interface": {
       "image": {
         "type": "file",
-        "accept": "image/*",
-        "default": ""
+        "default": "",
+        "accept": "image/*"
       },
       "category": {
         "type": "string",

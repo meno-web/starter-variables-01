@@ -454,7 +454,8 @@
                       "category": "Technology",
                       "title": "Getting Started with Modern Web Development",
                       "date": "Jan 15, 2025",
-                      "description": "Learn the fundamentals of modern web development and best practices for building scalable applications."
+                      "description": "Learn the fundamentals of modern web development and best practices for building scalable applications.",
+                      "image": "/images/placeholder-img.webp"
                     }
                   },
                   {
