@@ -1,9 +1,8 @@
 {
-  "filePath": "pages/index.json",
-  "locator": "pages/index.json:234-241  <FeatureCard>",
-  "props": {
-    "description": "This is description",
-    "text": "Feature 3"
-  },
-  "navigationPath": []
+  "filePath": "components/FaqQuestion.json",
+  "locator": "components/FaqQuestion.json:18-86  <button>",
+  "navigationPath": [
+    "pages/index.json",
+    "components/FaqQuestion.json"
+  ]
 }
