@@ -15,7 +15,7 @@
       "children": [
         {
           "type": "node",
-          "tag": "h2",
+          "tag": "h3",
           "style": {
             "base": {
               "fontSize": "var(--hea-fs)",
