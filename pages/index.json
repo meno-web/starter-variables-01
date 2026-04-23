@@ -78,23 +78,58 @@
                     "children": "This is heading"
                   },
                   {
-                    "type": "link",
-                    "href": "#",
+                    "type": "node",
+                    "tag": "div",
                     "style": {
                       "base": {
-                        "padding": "var(--b-p)",
-                        "display": "inline-flex",
+                        "display": "flex",
                         "flexDirection": "row",
                         "justifyContent": "flex-start",
                         "alignItems": "stretch",
-                        "backgroundColor": "var(--accent)",
-                        "borderRadius": "var(--b-br)",
+                        "gap": "16px",
                         "marginTop": "var(--b-m)"
                       },
                       "tablet": {},
                       "mobile": {}
                     },
-                    "children": "Button"
+                    "children": [
+                      {
+                        "type": "link",
+                        "href": "#",
+                        "style": {
+                          "base": {
+                            "padding": "var(--b-p)",
+                            "display": "inline-flex",
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "stretch",
+                            "backgroundColor": "var(--accent)",
+                            "borderRadius": "var(--b-br)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "Button"
+                      },
+                      {
+                        "type": "link",
+                        "href": "#",
+                        "style": {
+                          "base": {
+                            "padding": "var(--b-p)",
+                            "display": "inline-flex",
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "stretch",
+                            "backgroundColor": "var(--accent)",
+                            "borderRadius": "var(--b-br)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "Button"
+                      }
+                    ]
                   }
                 ]
               }

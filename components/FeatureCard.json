@@ -6,7 +6,8 @@
       "style": {
         "base": {
           "padding": "24px",
-          "backgroundColor": "var(--bg)"
+          "backgroundColor": "var(--bg)",
+          "borderRadius": "8px"
         },
         "tablet": {},
         "mobile": {}
