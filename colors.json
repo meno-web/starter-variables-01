@@ -1,0 +1,14 @@
+{
+  "default": "light",
+  "themes": {
+    "light": {
+      "label": "Light",
+      "colors": {
+        "text": "#1f2937",
+        "bg": "#ffffff",
+        "muted": "#6b7280",
+        "border": "#e5e7eb"
+      }
+    }
+  }
+}

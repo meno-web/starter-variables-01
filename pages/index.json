@@ -1,0 +1,11 @@
+{
+  "root": {
+    "type": "component",
+    "component": "Layout",
+    "children": []
+  },
+  "meta": {
+    "title": "starter-variables-01",
+    "description": "Created with Meno Studio"
+  }
+}
