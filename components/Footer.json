@@ -1,0 +1,496 @@
+{
+  "component": {
+    "structure": {
+      "type": "node",
+      "tag": "footer",
+      "label": "Footer",
+      "style": {
+        "base": {
+          "padding": "var(--s-p)",
+          "backgroundColor": "var(--bg)",
+          "borderTop": "1px solid var(--border)"
+        },
+        "tablet": {},
+        "mobile": {}
+      },
+      "children": [
+        {
+          "type": "node",
+          "tag": "div",
+          "label": "Container",
+          "style": {
+            "base": {
+              "display": "block",
+              "maxWidth": "var(--c-s)",
+              "margin": "auto"
+            },
+            "tablet": {},
+            "mobile": {}
+          },
+          "children": [
+            {
+              "type": "node",
+              "tag": "div",
+              "label": "TopRow",
+              "style": {
+                "base": {
+                  "display": "grid",
+                  "gridTemplateColumns": "2fr 1fr 1fr 1fr",
+                  "gap": "40px"
+                },
+                "tablet": {
+                  "gridTemplateColumns": "1fr 1fr"
+                },
+                "mobile": {
+                  "gridTemplateColumns": "1fr"
+                }
+              },
+              "children": [
+                {
+                  "type": "node",
+                  "tag": "div",
+                  "label": "Brand",
+                  "children": [
+                    {
+                      "type": "node",
+                      "tag": "span",
+                      "style": {
+                        "base": {
+                          "display": "block",
+                          "fontSize": "22px",
+                          "fontWeight": "var(--h-fw)",
+                          "letterSpacing": "var(--h-ls)",
+                          "color": "var(--text)",
+                          "marginBottom": "12px"
+                        },
+                        "tablet": {},
+                        "mobile": {}
+                      },
+                      "children": "{{brandName}}"
+                    },
+                    {
+                      "type": "node",
+                      "tag": "p",
+                      "style": {
+                        "base": {
+                          "fontSize": "var(--t-fs)",
+                          "letterSpacing": "var(--t-ls)",
+                          "fontWeight": "var(--t-fw)",
+                          "lineHeight": "var(--t-lh)",
+                          "color": "var(--muted)",
+                          "maxWidth": "320px",
+                          "margin": "0"
+                        },
+                        "tablet": {},
+                        "mobile": {}
+                      },
+                      "children": "{{tagline}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "node",
+                  "tag": "div",
+                  "label": "Column1",
+                  "children": [
+                    {
+                      "type": "node",
+                      "tag": "span",
+                      "style": {
+                        "base": {
+                          "display": "block",
+                          "fontSize": "var(--s-fs)",
+                          "letterSpacing": "var(--s-ls)",
+                          "fontWeight": "var(--s-fw)",
+                          "textTransform": "var(--subtitle)",
+                          "color": "var(--text)",
+                          "marginBottom": "16px"
+                        },
+                        "tablet": {},
+                        "mobile": {}
+                      },
+                      "children": "{{column1Title}}"
+                    },
+                    {
+                      "type": "node",
+                      "tag": "ul",
+                      "style": {
+                        "base": {
+                          "listStyle": "none",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": "10px",
+                          "padding": "0",
+                          "margin": "0"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "list",
+                          "sourceType": "prop",
+                          "source": "column1Links",
+                          "itemAs": "link",
+                          "children": [
+                            {
+                              "type": "node",
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "type": "link",
+                                  "href": "{{link.href}}",
+                                  "style": {
+                                    "base": {
+                                      "color": "var(--muted)",
+                                      "fontSize": "var(--t-fs)",
+                                      "letterSpacing": "var(--t-ls)",
+                                      "fontWeight": "var(--t-fw)",
+                                      "textDecoration": "none",
+                                      "transition": "color 0.2s"
+                                    }
+                                  },
+                                  "interactiveStyles": [
+                                    {
+                                      "name": "hover",
+                                      "prefix": "",
+                                      "postfix": ":hover",
+                                      "style": {
+                                        "base": { "color": "var(--text)" }
+                                      }
+                                    }
+                                  ],
+                                  "children": "{{link.text}}"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "node",
+                  "tag": "div",
+                  "label": "Column2",
+                  "children": [
+                    {
+                      "type": "node",
+                      "tag": "span",
+                      "style": {
+                        "base": {
+                          "display": "block",
+                          "fontSize": "var(--s-fs)",
+                          "letterSpacing": "var(--s-ls)",
+                          "fontWeight": "var(--s-fw)",
+                          "textTransform": "var(--subtitle)",
+                          "color": "var(--text)",
+                          "marginBottom": "16px"
+                        },
+                        "tablet": {},
+                        "mobile": {}
+                      },
+                      "children": "{{column2Title}}"
+                    },
+                    {
+                      "type": "node",
+                      "tag": "ul",
+                      "style": {
+                        "base": {
+                          "listStyle": "none",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": "10px",
+                          "padding": "0",
+                          "margin": "0"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "list",
+                          "sourceType": "prop",
+                          "source": "column2Links",
+                          "itemAs": "link",
+                          "children": [
+                            {
+                              "type": "node",
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "type": "link",
+                                  "href": "{{link.href}}",
+                                  "style": {
+                                    "base": {
+                                      "color": "var(--muted)",
+                                      "fontSize": "var(--t-fs)",
+                                      "letterSpacing": "var(--t-ls)",
+                                      "fontWeight": "var(--t-fw)",
+                                      "textDecoration": "none",
+                                      "transition": "color 0.2s"
+                                    }
+                                  },
+                                  "interactiveStyles": [
+                                    {
+                                      "name": "hover",
+                                      "prefix": "",
+                                      "postfix": ":hover",
+                                      "style": {
+                                        "base": { "color": "var(--text)" }
+                                      }
+                                    }
+                                  ],
+                                  "children": "{{link.text}}"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "node",
+                  "tag": "div",
+                  "label": "Column3",
+                  "children": [
+                    {
+                      "type": "node",
+                      "tag": "span",
+                      "style": {
+                        "base": {
+                          "display": "block",
+                          "fontSize": "var(--s-fs)",
+                          "letterSpacing": "var(--s-ls)",
+                          "fontWeight": "var(--s-fw)",
+                          "textTransform": "var(--subtitle)",
+                          "color": "var(--text)",
+                          "marginBottom": "16px"
+                        },
+                        "tablet": {},
+                        "mobile": {}
+                      },
+                      "children": "{{column3Title}}"
+                    },
+                    {
+                      "type": "node",
+                      "tag": "ul",
+                      "style": {
+                        "base": {
+                          "listStyle": "none",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": "10px",
+                          "padding": "0",
+                          "margin": "0"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "list",
+                          "sourceType": "prop",
+                          "source": "column3Links",
+                          "itemAs": "link",
+                          "children": [
+                            {
+                              "type": "node",
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "type": "link",
+                                  "href": "{{link.href}}",
+                                  "style": {
+                                    "base": {
+                                      "color": "var(--muted)",
+                                      "fontSize": "var(--t-fs)",
+                                      "letterSpacing": "var(--t-ls)",
+                                      "fontWeight": "var(--t-fw)",
+                                      "textDecoration": "none",
+                                      "transition": "color 0.2s"
+                                    }
+                                  },
+                                  "interactiveStyles": [
+                                    {
+                                      "name": "hover",
+                                      "prefix": "",
+                                      "postfix": ":hover",
+                                      "style": {
+                                        "base": { "color": "var(--text)" }
+                                      }
+                                    }
+                                  ],
+                                  "children": "{{link.text}}"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "node",
+              "tag": "div",
+              "label": "BottomRow",
+              "style": {
+                "base": {
+                  "borderTop": "1px solid var(--border)",
+                  "marginTop": "48px",
+                  "paddingTop": "24px",
+                  "display": "flex",
+                  "justifyContent": "space-between",
+                  "alignItems": "center"
+                },
+                "tablet": {},
+                "mobile": {
+                  "flexDirection": "column",
+                  "gap": "16px",
+                  "textAlign": "center"
+                }
+              },
+              "children": [
+                {
+                  "type": "node",
+                  "tag": "span",
+                  "style": {
+                    "base": {
+                      "fontSize": "14px",
+                      "letterSpacing": "var(--t-ls)",
+                      "fontWeight": "var(--t-fw)",
+                      "color": "var(--muted)"
+                    },
+                    "tablet": {},
+                    "mobile": {}
+                  },
+                  "children": "{{copyright}}"
+                },
+                {
+                  "type": "node",
+                  "tag": "div",
+                  "style": {
+                    "base": {
+                      "display": "flex",
+                      "gap": "24px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "link",
+                      "href": "#privacy",
+                      "style": {
+                        "base": {
+                          "fontSize": "14px",
+                          "letterSpacing": "var(--t-ls)",
+                          "fontWeight": "var(--t-fw)",
+                          "color": "var(--muted)",
+                          "textDecoration": "none",
+                          "transition": "color 0.2s"
+                        }
+                      },
+                      "interactiveStyles": [
+                        {
+                          "name": "hover",
+                          "prefix": "",
+                          "postfix": ":hover",
+                          "style": { "base": { "color": "var(--text)" } }
+                        }
+                      ],
+                      "children": "Privacy policy"
+                    },
+                    {
+                      "type": "link",
+                      "href": "#terms",
+                      "style": {
+                        "base": {
+                          "fontSize": "14px",
+                          "letterSpacing": "var(--t-ls)",
+                          "fontWeight": "var(--t-fw)",
+                          "color": "var(--muted)",
+                          "textDecoration": "none",
+                          "transition": "color 0.2s"
+                        }
+                      },
+                      "interactiveStyles": [
+                        {
+                          "name": "hover",
+                          "prefix": "",
+                          "postfix": ":hover",
+                          "style": { "base": { "color": "var(--text)" } }
+                        }
+                      ],
+                      "children": "Terms of Service"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "interface": {
+      "brandName": {
+        "type": "string",
+        "default": "Starter"
+      },
+      "tagline": {
+        "type": "string",
+        "default": "Short tagline that previews how this footer copy reads in the editor."
+      },
+      "column1Title": {
+        "type": "string",
+        "default": "Product"
+      },
+      "column1Links": {
+        "type": "list",
+        "itemSchema": {
+          "text": { "type": "string", "default": "Link" },
+          "href": { "type": "link", "default": "/" }
+        },
+        "default": [
+          { "text": "Features", "href": "#features" },
+          { "text": "Pricing", "href": "#pricing" },
+          { "text": "Integrations", "href": "#integrations" }
+        ]
+      },
+      "column2Title": {
+        "type": "string",
+        "default": "Company"
+      },
+      "column2Links": {
+        "type": "list",
+        "itemSchema": {
+          "text": { "type": "string", "default": "Link" },
+          "href": { "type": "link", "default": "/" }
+        },
+        "default": [
+          { "text": "About", "href": "#about" },
+          { "text": "Blog", "href": "/blog" },
+          { "text": "Careers", "href": "#careers" }
+        ]
+      },
+      "column3Title": {
+        "type": "string",
+        "default": "Support"
+      },
+      "column3Links": {
+        "type": "list",
+        "itemSchema": {
+          "text": { "type": "string", "default": "Link" },
+          "href": { "type": "link", "default": "/" }
+        },
+        "default": [
+          { "text": "Help Center", "href": "#help" },
+          { "text": "Contact", "href": "#contact" },
+          { "text": "Status", "href": "#status" }
+        ]
+      },
+      "copyright": {
+        "type": "string",
+        "default": "© 2026 Starter. All rights reserved."
+      }
+    }
+  }
+}
