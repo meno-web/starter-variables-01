@@ -113,6 +113,20 @@
             "tablet": {},
             "mobile": {}
           },
+          "interactiveStyles": [
+            {
+              "name": "when open",
+              "prefix": "[data-faq-item].is-open ",
+              "postfix": "",
+              "style": {
+                "base": {
+                  "maxHeight": "1000px",
+                  "paddingBottom": "20px"
+                }
+              },
+              "previewProp": "isOpen"
+            }
+          ],
           "children": [
             {
               "type": "node",
