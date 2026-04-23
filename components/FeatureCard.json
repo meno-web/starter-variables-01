@@ -21,7 +21,7 @@
               "fontSize": "var(--hea-fs)",
               "letterSpacing": "var(--h-ls)",
               "fontWeight": "var(--h-fw)",
-              "marginBottom": "var(--h-m)",
+              "marginBottom": "var(--he-m)",
               "lineHeight": "var(--h-lh)",
               "color": "var(--text)"
             },

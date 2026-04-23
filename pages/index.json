@@ -182,7 +182,7 @@
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": "This is heading"
+                "children": "This is features headline"
               },
               {
                 "type": "node",
@@ -193,12 +193,13 @@
                     "letterSpacing": "var(--t-ls)",
                     "fontWeight": "var(--t-fw)",
                     "lineHeight": "var(--t-lh)",
-                    "color": "var(--text)"
+                    "color": "var(--text)",
+                    "maxWidth": "380px"
                   },
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": "This is heading"
+                "children": "Short supporting description that previews how this section looks and reads in the editor"
               },
               {
                 "type": "node",
@@ -218,21 +219,24 @@
                     "type": "component",
                     "component": "FeatureCard",
                     "props": {
-                      "description": "This is description"
+                      "description": "This is description",
+                      "text": "Feature 1"
                     }
                   },
                   {
                     "type": "component",
                     "component": "FeatureCard",
                     "props": {
-                      "description": "This is description"
+                      "description": "This is description",
+                      "text": "Feature 2"
                     }
                   },
                   {
                     "type": "component",
                     "component": "FeatureCard",
                     "props": {
-                      "description": "This is description"
+                      "description": "This is description",
+                      "text": "Feature 3"
                     }
                   }
                 ]
@@ -280,7 +284,7 @@
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": "This is heading"
+                "children": "Frequently asked questions"
               },
               {
                 "type": "node",
@@ -295,7 +299,7 @@
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": "This is heading"
+                "children": "Short supporting description that previews how this section looks and reads in the editor."
               },
               {
                 "type": "link",

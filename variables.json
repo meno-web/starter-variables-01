@@ -118,11 +118,19 @@
     },
     {
       "name": "Container",
+      "prop_name": "Medium",
       "cssVar": "--co-s",
       "value": "890px",
       "type": "size",
-      "group": "size",
-      "prop_name": "Medium"
+      "group": "size"
+    },
+    {
+      "name": "Heading",
+      "cssVar": "--he-m",
+      "value": "8px",
+      "type": "margin",
+      "group": "margin",
+      "prop_name": "Size 3"
     }
   ]
 }
