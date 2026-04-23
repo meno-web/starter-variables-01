@@ -28,6 +28,49 @@
       "value": "12px",
       "type": "margin",
       "group": "margin"
+    },
+    {
+      "name": "Text",
+      "prop_name": "Medium",
+      "cssVar": "--t-fs",
+      "value": "18px",
+      "type": "fontSize",
+      "group": "font-size"
+    },
+    {
+      "name": "Text",
+      "cssVar": "--t-fw",
+      "value": "400",
+      "type": "none",
+      "group": "font-weight"
+    },
+    {
+      "name": "Text",
+      "cssVar": "--t-ls",
+      "value": "-0.01em",
+      "type": "none",
+      "group": "letter-spacing"
+    },
+    {
+      "name": "Button",
+      "cssVar": "--b-m",
+      "value": "32px",
+      "type": "margin",
+      "group": "margin"
+    },
+    {
+      "name": "Button",
+      "cssVar": "--b-p",
+      "value": "12px 18px",
+      "type": "padding",
+      "group": "padding"
+    },
+    {
+      "name": "Section",
+      "cssVar": "--s-p",
+      "value": "80px 32px",
+      "type": "padding",
+      "group": "padding"
     }
   ]
 }
