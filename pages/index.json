@@ -2,7 +2,16 @@
   "root": {
     "type": "component",
     "component": "Layout",
-    "children": []
+    "children": [
+      {
+        "type": "node",
+        "tag": "div",
+        "style": {
+          "base": {}
+        },
+        "children": []
+      }
+    ]
   },
   "meta": {
     "title": "starter-variables-01",
