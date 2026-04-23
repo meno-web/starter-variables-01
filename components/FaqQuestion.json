@@ -78,6 +78,19 @@
                 "tablet": {},
                 "mobile": {}
               },
+              "interactiveStyles": [
+                {
+                  "name": "when open",
+                  "prefix": "[data-faq-item].is-open ",
+                  "postfix": "",
+                  "style": {
+                    "base": {
+                      "transform": "rotate(45deg)"
+                    }
+                  },
+                  "previewProp": "isOpen"
+                }
+              ],
               "children": [
                 "+"
               ]
