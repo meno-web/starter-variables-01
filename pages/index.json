@@ -121,7 +121,7 @@
                             "flexDirection": "row",
                             "justifyContent": "flex-start",
                             "alignItems": "stretch",
-                            "backgroundColor": "var(--accent)",
+                            "backgroundColor": "var(--bg-100)",
                             "borderRadius": "var(--b-br)"
                           },
                           "tablet": {},
