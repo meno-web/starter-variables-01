@@ -11,7 +11,8 @@
         "accent": "#000000",
         "gray-100": "#f6f6f6",
         "white": "#ebebeb",
-        "gray-200": "#ebebeb"
+        "gray-200": "#ebebeb",
+        "span": "#818181"
       }
     }
   }
