@@ -168,11 +168,19 @@
     },
     {
       "name": "Text",
+      "prop_name": "Default",
       "cssVar": "--te-fs",
       "value": "16px",
       "type": "fontSize",
+      "group": "font-size"
+    },
+    {
+      "name": "Text",
+      "cssVar": "--tex-fs",
+      "value": "14px",
+      "type": "fontSize",
       "group": "font-size",
-      "prop_name": "Default"
+      "prop_name": "Small"
     }
   ]
 }
