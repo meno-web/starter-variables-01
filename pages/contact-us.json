@@ -53,7 +53,7 @@
                     "tag": "h1",
                     "style": {
                       "base": {
-                        "fontSize": "var(--he-fs)",
+                        "fontSize": "var(--h-fs)",
                         "letterSpacing": "var(--h-ls)",
                         "fontWeight": "var(--h-fw)",
                         "marginBottom": "var(--h-m)",
@@ -150,11 +150,26 @@
                       "inputName": "subject",
                       "required": true,
                       "options": [
-                        { "label": "Select a subject", "value": "" },
-                        { "label": "General inquiry", "value": "general" },
-                        { "label": "Support", "value": "support" },
-                        { "label": "Partnership", "value": "partnership" },
-                        { "label": "Other", "value": "other" }
+                        {
+                          "label": "Select a subject",
+                          "value": ""
+                        },
+                        {
+                          "label": "General inquiry",
+                          "value": "general"
+                        },
+                        {
+                          "label": "Support",
+                          "value": "support"
+                        },
+                        {
+                          "label": "Partnership",
+                          "value": "partnership"
+                        },
+                        {
+                          "label": "Other",
+                          "value": "other"
+                        }
                       ]
                     }
                   },
@@ -166,8 +181,14 @@
                       "inputName": "contactMethod",
                       "required": true,
                       "options": [
-                        { "label": "Email", "value": "email" },
-                        { "label": "Phone", "value": "phone" }
+                        {
+                          "label": "Email",
+                          "value": "email"
+                        },
+                        {
+                          "label": "Phone",
+                          "value": "phone"
+                        }
                       ]
                     }
                   },
