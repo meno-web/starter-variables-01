@@ -20,7 +20,7 @@
             "style": {
               "base": {
                 "display": "block",
-                "maxWidth": "1100px",
+                "maxWidth": "var(--i-s)",
                 "margin": "auto"
               },
               "tablet": {},
