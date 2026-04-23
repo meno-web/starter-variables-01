@@ -1,16 +1,16 @@
 const toggle = el.querySelector('[data-faq-toggle]');
-const answer = el.querySelector('[data-faq-answer]');
+const answerEl = el.querySelector('[data-faq-answer]');
 const icon = el.querySelector('[data-faq-icon]');
 
-if (toggle && answer) {
+if (toggle && answerEl) {
   const updateHeight = () => {
     if (el.getAttribute('data-expanded') === 'true') {
-      answer.style.maxHeight = answer.scrollHeight + 'px';
-      answer.style.paddingBottom = '20px';
+      answerEl.style.maxHeight = answerEl.scrollHeight + 'px';
+      answerEl.style.paddingBottom = '20px';
       icon.style.transform = 'rotate(45deg)';
     } else {
-      answer.style.maxHeight = '0';
-      answer.style.paddingBottom = '0';
+      answerEl.style.maxHeight = '0';
+      answerEl.style.paddingBottom = '0';
       icon.style.transform = 'rotate(0deg)';
     }
   };
