@@ -23,11 +23,7 @@
           "tag": "img",
           "style": {
             "base": {
-              "width": "100%",
-              "aspectRatio": "16 / 10",
-              "backgroundColor": "var(--gray-200)",
-              "backgroundSize": "cover",
-              "backgroundPosition": "center"
+              "aspectRatio": "16 / 10"
             },
             "tablet": {},
             "mobile": {}

@@ -1,6 +1,6 @@
 {
   "filePath": "components/BlogCard.json",
-  "locator": "components/BlogCard.json:21-38  <img>",
+  "locator": "components/BlogCard.json:21-34  <img>",
   "navigationPath": [
     "pages/index.json",
     "components/BlogCard.json"
