@@ -41,7 +41,7 @@
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": "This is heading"
+                "children": "Everything you need to build professional website"
               },
               {
                 "type": "node",
@@ -150,95 +150,24 @@
                 "children": [
                   {
                     "type": "component",
-                    "component": "FeatureCard"
+                    "component": "FeatureCard",
+                    "props": {
+                      "description": "This is description"
+                    }
                   },
                   {
-                    "type": "node",
-                    "tag": "div",
-                    "style": {
-                      "base": {
-                        "padding": "16px",
-                        "border": "1px solid",
-                        "borderColor": "var(--text)"
-                      },
-                      "tablet": {},
-                      "mobile": {}
-                    },
-                    "children": [
-                      {
-                        "type": "node",
-                        "tag": "h2",
-                        "style": {
-                          "base": {
-                            "fontSize": "var(--hea-fs)",
-                            "letterSpacing": "var(--h-ls)",
-                            "fontWeight": "var(--h-fw)",
-                            "marginBottom": "var(--h-m)"
-                          },
-                          "tablet": {},
-                          "mobile": {}
-                        },
-                        "children": "This is heading"
-                      },
-                      {
-                        "type": "node",
-                        "tag": "p",
-                        "style": {
-                          "base": {
-                            "fontSize": "var(--t-fs)",
-                            "letterSpacing": "var(--t-ls)",
-                            "fontWeight": "var(--t-fw)"
-                          },
-                          "tablet": {},
-                          "mobile": {}
-                        },
-                        "children": "This is heading"
-                      }
-                    ]
+                    "type": "component",
+                    "component": "FeatureCard",
+                    "props": {
+                      "description": "This is description"
+                    }
                   },
                   {
-                    "type": "node",
-                    "tag": "div",
-                    "style": {
-                      "base": {
-                        "padding": "16px",
-                        "border": "1px solid",
-                        "borderColor": "var(--text)"
-                      },
-                      "tablet": {},
-                      "mobile": {}
-                    },
-                    "children": [
-                      {
-                        "type": "node",
-                        "tag": "h2",
-                        "style": {
-                          "base": {
-                            "fontSize": "var(--hea-fs)",
-                            "letterSpacing": "var(--h-ls)",
-                            "fontWeight": "var(--h-fw)",
-                            "marginBottom": "var(--h-m)"
-                          },
-                          "tablet": {},
-                          "mobile": {}
-                        },
-                        "children": "This is heading"
-                      },
-                      {
-                        "type": "node",
-                        "tag": "p",
-                        "style": {
-                          "base": {
-                            "fontSize": "var(--t-fs)",
-                            "letterSpacing": "var(--t-ls)",
-                            "fontWeight": "var(--t-fw)"
-                          },
-                          "tablet": {},
-                          "mobile": {}
-                        },
-                        "children": "This is heading"
-                      }
-                    ]
+                    "type": "component",
+                    "component": "FeatureCard",
+                    "props": {
+                      "description": "This is description"
+                    }
                   }
                 ]
               }

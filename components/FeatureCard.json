@@ -1,23 +1,12 @@
 {
   "component": {
-    "interface": {
-      "text": {
-        "type": "string",
-        "default": "This is heading"
-      },
-      "description": {
-        "type": "string",
-        "default": "This is heading"
-      }
-    },
     "structure": {
       "type": "node",
       "tag": "div",
       "style": {
         "base": {
-          "padding": "16px",
-          "border": "1px solid",
-          "borderColor": "var(--text)"
+          "padding": "24px",
+          "backgroundColor": "var(--bg)"
         },
         "tablet": {},
         "mobile": {}
@@ -57,6 +46,16 @@
           ]
         }
       ]
+    },
+    "interface": {
+      "text": {
+        "type": "string",
+        "default": "This is heading"
+      },
+      "description": {
+        "type": "string",
+        "default": "This is heading"
+      }
     }
   }
 }
