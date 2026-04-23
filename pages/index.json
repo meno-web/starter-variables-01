@@ -98,7 +98,6 @@
             "style": {
               "base": {
                 "display": "block",
-                "maxWidth": "var(--i-s)",
                 "margin": "auto"
               },
               "tablet": {},
@@ -107,10 +106,10 @@
             "children": [
               {
                 "type": "node",
-                "tag": "h1",
+                "tag": "h2",
                 "style": {
                   "base": {
-                    "fontSize": "var(--h-fs)",
+                    "fontSize": "var(--he-fs)",
                     "letterSpacing": "var(--h-ls)",
                     "fontWeight": "var(--h-fw)",
                     "marginBottom": "var(--h-m)"
@@ -140,13 +139,147 @@
                 "style": {
                   "base": {
                     "display": "grid",
-                    "gridTemplateColumns": "1fr",
-                    "gap": "0px"
+                    "gridTemplateColumns": "1fr 1fr 1fr",
+                    "gap": "16px",
+                    "marginTop": "40px"
                   },
                   "tablet": {},
                   "mobile": {}
                 },
-                "children": []
+                "children": [
+                  {
+                    "type": "node",
+                    "tag": "div",
+                    "style": {
+                      "base": {
+                        "padding": "16px",
+                        "border": "1px solid",
+                        "borderColor": "var(--text)"
+                      },
+                      "tablet": {},
+                      "mobile": {}
+                    },
+                    "children": [
+                      {
+                        "type": "node",
+                        "tag": "h2",
+                        "style": {
+                          "base": {
+                            "fontSize": "var(--hea-fs)",
+                            "letterSpacing": "var(--h-ls)",
+                            "fontWeight": "var(--h-fw)",
+                            "marginBottom": "var(--h-m)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "This is heading"
+                      },
+                      {
+                        "type": "node",
+                        "tag": "p",
+                        "style": {
+                          "base": {
+                            "fontSize": "var(--t-fs)",
+                            "letterSpacing": "var(--t-ls)",
+                            "fontWeight": "var(--t-fw)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "This is heading"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "node",
+                    "tag": "div",
+                    "style": {
+                      "base": {
+                        "padding": "16px",
+                        "border": "1px solid",
+                        "borderColor": "var(--text)"
+                      },
+                      "tablet": {},
+                      "mobile": {}
+                    },
+                    "children": [
+                      {
+                        "type": "node",
+                        "tag": "h2",
+                        "style": {
+                          "base": {
+                            "fontSize": "var(--hea-fs)",
+                            "letterSpacing": "var(--h-ls)",
+                            "fontWeight": "var(--h-fw)",
+                            "marginBottom": "var(--h-m)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "This is heading"
+                      },
+                      {
+                        "type": "node",
+                        "tag": "p",
+                        "style": {
+                          "base": {
+                            "fontSize": "var(--t-fs)",
+                            "letterSpacing": "var(--t-ls)",
+                            "fontWeight": "var(--t-fw)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "This is heading"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "node",
+                    "tag": "div",
+                    "style": {
+                      "base": {
+                        "padding": "16px",
+                        "border": "1px solid",
+                        "borderColor": "var(--text)"
+                      },
+                      "tablet": {},
+                      "mobile": {}
+                    },
+                    "children": [
+                      {
+                        "type": "node",
+                        "tag": "h2",
+                        "style": {
+                          "base": {
+                            "fontSize": "var(--hea-fs)",
+                            "letterSpacing": "var(--h-ls)",
+                            "fontWeight": "var(--h-fw)",
+                            "marginBottom": "var(--h-m)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "This is heading"
+                      },
+                      {
+                        "type": "node",
+                        "tag": "p",
+                        "style": {
+                          "base": {
+                            "fontSize": "var(--t-fs)",
+                            "letterSpacing": "var(--t-ls)",
+                            "fontWeight": "var(--t-fw)"
+                          },
+                          "tablet": {},
+                          "mobile": {}
+                        },
+                        "children": "This is heading"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
