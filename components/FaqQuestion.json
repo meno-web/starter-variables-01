@@ -134,7 +134,6 @@
         "type": "string",
         "default": "Short supporting description that previews how this section looks and reads in the editor"
       }
-    },
-    "js": "(el) => {\n  const toggle = el.querySelector('[data-faq-toggle]');\n  const answer = el.querySelector('[data-faq-answer]');\n  const icon = el.querySelector('[data-faq-icon]');\n  const item = el.querySelector('[data-faq-item]');\n  \n  if (!toggle || !answer) return;\n  \n  const updateHeight = () => {\n    if (item.getAttribute('data-expanded') === 'true') {\n      answer.style.maxHeight = answer.scrollHeight + 'px';\n      answer.style.paddingBottom = '20px';\n      icon.style.transform = 'rotate(45deg)';\n    } else {\n      answer.style.maxHeight = '0';\n      answer.style.paddingBottom = '0';\n      icon.style.transform = 'rotate(0deg)';\n    }\n  };\n  \n  toggle.addEventListener('click', () => {\n    const isExpanded = item.getAttribute('data-expanded') === 'true';\n    item.setAttribute('data-expanded', isExpanded ? 'false' : 'true');\n    updateHeight();\n  });\n  \n  // Handle window resize to adjust height\n  window.addEventListener('resize', () => {\n    updateHeight();\n  });\n}\n"
+    }
   }
 }
